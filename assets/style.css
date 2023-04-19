@@ -1,0 +1,222 @@
+body{
+    color: rgb(255, 255, 255);
+    background-color: rgb(28, 125, 135);
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------- */
+
+/* Header/"NavBar" */
+
+header {
+    background-color: rgb(0, 0, 0);
+}
+
+.Criptografia {
+    border: 0;
+    padding-top: 8px; 
+    padding-left: 20px;
+    /* padding-bottom: 50px; */ 
+    margin: 0;
+}
+
+.TeN {
+    border: 0;
+    padding-left: 45px;
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+.Alura-logo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 0;
+    padding-top: 10px;
+    padding-right: 20px;
+    margin: 0;
+}
+
+/* Header/"NavBar" */
+
+/* ---------------------------------------------------------- */
+
+/* Main */
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    /* border: 4px solid rgb(63, 149, 16); */
+    height: 358px;
+
+}
+
+.Lado-Esquerdo{
+    /* font-size: 50px; */
+    /* background-color: #ffffff; */
+    width: 900px;
+    height: 358px;
+    padding-left: 30px;
+    padding-top: 20px;
+    /* border: 4px solid blue; */
+}
+
+.TextoInput{
+    width: 830px;
+    height: 260px;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    color: var(--cortitulo);
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: 0;
+    padding: 10px;
+    /* text-transform: uppercase; */
+}
+
+.TextoInput::placeholder{
+    color: rgb(255, 255, 255);
+}
+
+.Lado-Direito{
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* border: 3px solid var(--cortitulo); */
+    border-radius: 20px;
+    width: 350px;
+    height: 475px;
+    /* margin: right 3%; ; */
+    border: 3px solid rgb(18, 74, 126);
+    /* margin: 15px; */
+    margin-top: 20px;
+    margin-right: 20px;
+    /* padding-bottom: 330px; */
+}
+
+.imgLupa{
+    height: 300px;
+}
+
+.texto-Lupa{
+    padding-top: 40px;
+    padding-left: 32px;
+}
+
+/* Main */
+
+/* -------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Botões */
+
+.exclamacao{        
+    height: 15px;
+}
+
+.ALERTA {
+    font-size: 17px;
+    padding-bottom: 6px;
+}
+
+.Botões {
+    padding-left: 60px;
+    padding-top: 30px;
+    padding-bottom: 38px;
+    /* border: 4px solid yellow; */
+    width: 1280px;
+    /* height: 200px; */
+}
+
+.Botao-1{
+    cursor: pointer;
+    width: 350px;
+    height: 60px;
+    font-size: 20px;
+    border-radius: 40px;
+    padding: 10px;
+    border: 2.5px solid rgb(0, 0, 0);
+    margin-right: 1em;    
+}
+
+.Botao-2{
+    cursor: pointer;
+    width: 350px;
+    height: 60px;
+    font-size: 20px;
+    border-radius: 40px;
+    padding: 10px;
+    border: 2.5px solid rgb(0, 0, 0);
+    margin-right: 6.80em;
+}
+
+.Botao-3{
+    cursor: pointer;
+    width: 320px;
+    height: 60px;
+    font-size: 20px;
+    border-radius: 40px;
+    padding: 10px;
+    border: 2.5px solid rgb(0, 0, 0);
+}
+
+/* Botões */
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------ */
+
+/* Footer */
+
+footer {
+    background: rgb(0, 0, 0);
+}
+
+.footerteste{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px; 
+    padding-right: 20px;
+
+}
+
+.textosFooter{
+    padding-top: 10px;
+}
+
+.img-size{
+    height: 32px;
+    display:inline-block;
+    flex-direction: column;
+    align-items: center;
+}
+/* 
+.img1{
+    padding-left: 25em;
+}
+
+.img2{
+    padding-right: 2em;
+    padding-left: 5px;
+} */
+
+/* Footer */
+/* ------------------------------------------------------------------------------------------------------------------------------------------ */
+
+.Texto-Resultado{
+    width: 320px;
+    height: 350px;
+    font-size: 35px;
+    margin-left: 12px;
+    margin-top: 10px;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    color: rgb(255, 255, 255);
+}

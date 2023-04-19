@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptografia</title>
+    <link rel="icon" href="assets/img/escudo-de-seguranca.png"> 
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="styleshee" href="assets/reset.css">
+</head>
+<body>
+
+    <header>
+        <div>
+            <h1 class="Criptografia">Criptografia</h1>
+            <p class="TeN">Textos e Números</p>
+        </div>
+        <a href="https://www.alura.com.br/"><img class="Alura-logo" src="assets/img/Vector.png" alt="Alura-Logo"></a>
+    </header>
+
+    <main>
+
+        <div class="container">
+            <div class="Lado-Esquerdo">
+                <textarea class="TextoInput" id="Criptografar-Texto" placeholder="Digite seu texto"></textarea>
+            </div>
+
+            <div id="saida" class="Lado-Direito">
+                <img class="imgLupa" src="assets/img/High quality products 1 1@3x.png">
+                <h3 class="texto-Lupa">Nenhuma mensagem encontrada</h3>
+            </div>
+        </div>
+
+    </main>
+
+    <div class="Botões">
+        <div>
+            <div class="ALERTA">
+            <p><img class="exclamacao" src="assets/img/ponto-de-exclamacao-em-um-circulo.png" alt="Exclamação">Apenas letras minúsculas e sem acento</p>
+            </div>
+            <button onclick="criptografar()" id="botao-criptografar" class="Botao-1">Criptografrar</button>
+            <button onclick="descriptografar()" id="botao-desciptografar" class="Botao-2">Descriptografar</button>
+            <button onclick="copiar()" class="Botao-3">Copiar</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footerteste">
+            <p class="textosFooter img2">&copy; Carlos Eduardo (cadu s.)</p>
+            <div>
+                <a href="https://github.com/CarlosEduardoSilverio"><img class="img-size " src="assets/img/github-LogoB.png" alt="GitHub-Logo"></a>
+                <a href="https://www.linkedin.com/in/carloseduardosilverio/"><img class="img-size " src="assets/img/linkedin-LogoB.png" alt="Logo-Linkedin"></a>            
+            </div>
+            <p class="textosFooter img1">#Challangeonelogicabr</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
